@@ -11,8 +11,10 @@
         "outDir": "dist",
         "baseUrl": ".",
         "resolveJsonModule": true,
+        "allowJs": true
     },
     "include": [
+        "src/**/*.js",
         "src/**/*.ts",
         "src/**/*.json"
     ],
